@@ -1,0 +1,147 @@
+2025-07-09 23:15:53,780 DEBUG cd frappe-bench && python3 -m venv env
+2025-07-09 23:15:57,448 DEBUG cd frappe-bench && /home/sanjai/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2025-07-09 23:16:00,140 DEBUG cd frappe-bench && /home/sanjai/frappe-bench/env/bin/python -m pip install --quiet wheel
+2025-07-09 23:16:02,646 LOG Getting frappe
+2025-07-09 23:16:02,646 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git --branch version-15 --depth 1 --origin upstream
+2025-07-09 23:16:09,293 LOG Installing frappe
+2025-07-09 23:16:09,295 DEBUG cd /home/sanjai/frappe-bench && /home/sanjai/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/sanjai/frappe-bench/apps/frappe 
+2025-07-09 23:17:48,103 DEBUG cd /home/sanjai/frappe-bench/apps/frappe && yarn install --check-files
+2025-07-09 23:19:12,417 DEBUG cd frappe-bench && bench build
+2025-07-09 23:19:12,647 INFO /home/sanjai/.local/bin/bench build
+2025-07-09 23:19:48,212 LOG setting up backups
+2025-07-09 23:19:48,230 LOG backups were set up
+2025-07-09 23:19:48,231 INFO Bench frappe-bench initialized
+2025-07-09 23:20:07,122 INFO /home/sanjai/.local/bin/bench get-app frappe --branch version-15
+2025-07-09 23:20:28,954 INFO App moved from apps/frappe to archived/apps/frappe-2025-07-09
+2025-07-09 23:20:28,960 LOG Getting frappe
+2025-07-09 23:20:28,960 DEBUG cd ./apps && git clone https://github.com/frappe/frappe.git --branch version-15 --depth 1 --origin upstream
+2025-07-09 23:20:35,805 LOG Installing frappe
+2025-07-09 23:20:35,807 DEBUG cd /home/sanjai/frappe-bench && /home/sanjai/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/sanjai/frappe-bench/apps/frappe 
+2025-07-09 23:20:39,139 DEBUG cd /home/sanjai/frappe-bench/apps/frappe && yarn install --check-files
+2025-07-09 23:21:03,292 DEBUG bench build --app frappe
+2025-07-09 23:21:03,490 INFO /home/sanjai/.local/bin/bench build --app frappe
+2025-07-09 23:21:43,178 INFO /home/sanjai/.local/bin/bench new-site mysite.local
+2025-07-09 23:23:17,441 INFO /home/sanjai/.local/bin/bench start
+2025-07-09 23:23:17,899 INFO /home/sanjai/.local/bin/bench watch
+2025-07-09 23:23:17,979 INFO /home/sanjai/.local/bin/bench serve --port 8000
+2025-07-09 23:23:18,066 INFO /home/sanjai/.local/bin/bench schedule
+2025-07-09 23:23:18,090 INFO /home/sanjai/.local/bin/bench worker
+2025-07-09 23:29:02,778 INFO /home/sanjai/.local/bin/bench new-app frappe_assessment
+2025-07-09 23:29:02,792 LOG creating new app frappe_assessment
+2025-07-09 23:30:42,820 LOG Installing frappe_assessment
+2025-07-09 23:30:42,821 DEBUG cd /home/sanjai/frappe-bench && /home/sanjai/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/sanjai/frappe-bench/apps/frappe_assessment 
+2025-07-09 23:30:46,466 DEBUG bench build --app frappe_assessment
+2025-07-09 23:30:46,640 INFO /home/sanjai/.local/bin/bench build --app frappe_assessment
+2025-07-09 23:31:10,813 INFO /home/sanjai/.local/bin/bench --site mysite.local install-app frappe_assessment
+2025-07-09 23:31:24,948 INFO /home/sanjai/.local/bin/bench start
+2025-07-09 23:33:05,249 INFO /home/sanjai/.local/bin/bench start
+2025-07-09 23:33:05,756 INFO /home/sanjai/.local/bin/bench watch
+2025-07-09 23:33:05,891 INFO /home/sanjai/.local/bin/bench serve --port 8000
+2025-07-09 23:33:05,990 INFO /home/sanjai/.local/bin/bench worker
+2025-07-09 23:33:06,035 INFO /home/sanjai/.local/bin/bench schedule
+2025-07-09 23:34:10,624 INFO /home/sanjai/.local/bin/bench start
+2025-07-09 23:34:11,057 INFO /home/sanjai/.local/bin/bench serve --port 8000
+2025-07-09 23:34:11,107 INFO /home/sanjai/.local/bin/bench schedule
+2025-07-09 23:34:11,210 INFO /home/sanjai/.local/bin/bench watch
+2025-07-09 23:34:11,293 INFO /home/sanjai/.local/bin/bench worker
+2025-07-09 23:35:14,682 INFO /home/sanjai/.local/bin/bench --site mysite.local install-app frappe_assessment
+2025-07-09 23:38:47,513 INFO /home/sanjai/.local/bin/bench --site mysite.local migrate
+2025-07-09 23:38:57,774 INFO /home/sanjai/.local/bin/bench start
+2025-07-09 23:38:58,274 INFO /home/sanjai/.local/bin/bench serve --port 8000
+2025-07-09 23:38:58,319 INFO /home/sanjai/.local/bin/bench worker
+2025-07-09 23:38:58,327 INFO /home/sanjai/.local/bin/bench watch
+2025-07-09 23:38:58,458 INFO /home/sanjai/.local/bin/bench schedule
+2025-07-09 23:39:16,893 INFO /home/sanjai/.local/bin/bench --site mysite.local migrate
+2025-07-09 23:39:37,249 INFO /home/sanjai/.local/bin/bench build
+2025-07-09 23:40:44,681 INFO /home/sanjai/.local/bin/bench restart
+2025-07-09 23:41:45,018 INFO /home/sanjai/.local/bin/bench resart
+2025-07-09 23:41:50,319 INFO /home/sanjai/.local/bin/bench restart
+2025-07-09 23:41:53,504 INFO /home/sanjai/.local/bin/bench start
+2025-07-09 23:41:54,017 INFO /home/sanjai/.local/bin/bench watch
+2025-07-09 23:41:54,075 INFO /home/sanjai/.local/bin/bench schedule
+2025-07-09 23:41:54,090 INFO /home/sanjai/.local/bin/bench worker
+2025-07-09 23:41:54,121 INFO /home/sanjai/.local/bin/bench serve --port 8000
+2025-07-09 23:42:51,651 INFO /home/sanjai/.local/bin/bench use mysite.local
+2025-07-09 23:44:56,618 INFO /home/sanjai/.local/bin/bench start
+2025-07-09 23:45:11,434 INFO /home/sanjai/.local/bin/bench start
+2025-07-09 23:46:50,019 INFO /home/sanjai/.local/bin/bench start
+2025-07-09 23:46:50,519 INFO /home/sanjai/.local/bin/bench serve --port 8000
+2025-07-09 23:46:50,592 INFO /home/sanjai/.local/bin/bench schedule
+2025-07-09 23:46:50,624 INFO /home/sanjai/.local/bin/bench worker
+2025-07-09 23:46:50,705 INFO /home/sanjai/.local/bin/bench watch
+2025-07-09 23:48:31,959 INFO /home/sanjai/.local/bin/bench --site mysite.local install-app frappe_assessment
+2025-07-09 23:49:58,825 INFO /home/sanjai/.local/bin/bench build
+2025-07-09 23:50:32,160 INFO /home/sanjai/.local/bin/bench restart
+2025-07-09 23:53:13,074 INFO /home/sanjai/.local/bin/bench --site mysite.local install-app frappe_assessment
+2025-07-10 21:13:47,706 INFO /home/sanjai/.local/bin/bench --site mysite.local clear-cache
+2025-07-10 21:13:50,604 INFO /home/sanjai/.local/bin/bench --site mysite.local build
+2025-07-10 21:14:56,988 INFO /home/sanjai/.local/bin/bench start
+2025-07-10 21:14:57,570 INFO /home/sanjai/.local/bin/bench serve --port 8000
+2025-07-10 21:14:57,705 INFO /home/sanjai/.local/bin/bench watch
+2025-07-10 21:14:57,786 INFO /home/sanjai/.local/bin/bench schedule
+2025-07-10 21:14:57,833 INFO /home/sanjai/.local/bin/bench worker
+2025-07-10 21:17:26,898 INFO /home/sanjai/.local/bin/bench --site mysite.local install-app frappe_assessment
+2025-07-10 21:20:58,597 INFO /home/sanjai/.local/bin/bench get-app erpnext --branch version-15
+2025-07-10 21:20:59,410 LOG Getting erpnext
+2025-07-10 21:20:59,410 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-15 --depth 1 --origin upstream
+2025-07-10 21:21:07,066 LOG Installing erpnext
+2025-07-10 21:21:07,066 DEBUG cd /home/sanjai/frappe-bench && /home/sanjai/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/sanjai/frappe-bench/apps/erpnext 
+2025-07-10 21:21:30,266 DEBUG cd /home/sanjai/frappe-bench/apps/erpnext && yarn install --check-files
+2025-07-10 21:21:31,723 DEBUG bench build --app erpnext
+2025-07-10 21:21:32,037 INFO /home/sanjai/.local/bin/bench build --app erpnext
+2025-07-10 21:21:59,541 INFO /home/sanjai/.local/bin/bench --site your-site-name install-app erpnext
+2025-07-10 21:22:37,885 INFO /home/sanjai/.local/bin/bench --site mysite.local install-app erpnext
+2025-07-10 21:24:35,723 INFO /home/sanjai/.local/bin/bench start
+2025-07-10 21:24:36,325 INFO /home/sanjai/.local/bin/bench schedule
+2025-07-10 21:24:36,328 INFO /home/sanjai/.local/bin/bench worker
+2025-07-10 21:24:36,341 INFO /home/sanjai/.local/bin/bench serve --port 8000
+2025-07-10 21:24:36,571 INFO /home/sanjai/.local/bin/bench watch
+2025-07-10 21:36:12,456 INFO /home/sanjai/.local/bin/bench build
+2025-07-10 21:37:11,667 INFO /home/sanjai/.local/bin/bench --site mysite.local clear-cache
+2025-07-10 21:37:22,131 INFO /home/sanjai/.local/bin/bench restart
+2025-07-10 21:37:30,681 INFO /home/sanjai/.local/bin/bench start
+2025-07-10 21:37:31,211 INFO /home/sanjai/.local/bin/bench watch
+2025-07-10 21:37:31,249 INFO /home/sanjai/.local/bin/bench worker
+2025-07-10 21:37:31,281 INFO /home/sanjai/.local/bin/bench serve --port 8000
+2025-07-10 21:37:31,333 INFO /home/sanjai/.local/bin/bench schedule
+2025-07-10 22:05:01,366 INFO /home/sanjai/.local/bin/bench build
+2025-07-10 22:05:52,817 INFO /home/sanjai/.local/bin/bench --site mysite.local clear-cache
+2025-07-10 22:06:05,375 INFO /home/sanjai/.local/bin/bench start
+2025-07-10 22:06:05,910 INFO /home/sanjai/.local/bin/bench serve --port 8000
+2025-07-10 22:06:05,981 INFO /home/sanjai/.local/bin/bench watch
+2025-07-10 22:06:06,004 INFO /home/sanjai/.local/bin/bench worker
+2025-07-10 22:06:06,029 INFO /home/sanjai/.local/bin/bench schedule
+2025-07-10 23:00:06,345 INFO /home/sanjai/.local/bin/bench start
+2025-07-10 23:00:07,030 INFO /home/sanjai/.local/bin/bench schedule
+2025-07-10 23:00:07,119 INFO /home/sanjai/.local/bin/bench watch
+2025-07-10 23:00:07,148 INFO /home/sanjai/.local/bin/bench worker
+2025-07-10 23:00:07,236 INFO /home/sanjai/.local/bin/bench serve --port 8000
+2025-07-10 23:27:00,565 INFO /home/sanjai/.local/bin/bench build
+2025-07-10 23:27:43,457 INFO /home/sanjai/.local/bin/bench start
+2025-07-10 23:27:43,959 INFO /home/sanjai/.local/bin/bench schedule
+2025-07-10 23:27:44,022 INFO /home/sanjai/.local/bin/bench worker
+2025-07-10 23:27:44,035 INFO /home/sanjai/.local/bin/bench serve --port 8000
+2025-07-10 23:27:44,171 INFO /home/sanjai/.local/bin/bench watch
+2025-07-10 23:31:20,606 INFO /home/sanjai/.local/bin/bench build
+2025-07-10 23:32:00,777 INFO /home/sanjai/.local/bin/bench start
+2025-07-10 23:32:01,346 INFO /home/sanjai/.local/bin/bench worker
+2025-07-10 23:32:01,401 INFO /home/sanjai/.local/bin/bench serve --port 8000
+2025-07-10 23:32:01,409 INFO /home/sanjai/.local/bin/bench watch
+2025-07-10 23:32:01,439 INFO /home/sanjai/.local/bin/bench schedule
+2025-07-10 23:34:04,547 INFO /home/sanjai/.local/bin/bench clear-cache
+2025-07-10 23:34:11,187 INFO /home/sanjai/.local/bin/bench clear-website-cache
+2025-07-10 23:34:34,482 INFO /home/sanjai/.local/bin/bench --site mysite.local list-apps
+2025-07-10 23:35:08,365 INFO /home/sanjai/.local/bin/bench --site mysite.local install-app frappe_assessment
+2025-07-10 23:36:48,428 INFO /home/sanjai/.local/bin/bench build
+2025-07-10 23:37:24,686 INFO /home/sanjai/.local/bin/bench restart
+2025-07-10 23:37:32,046 INFO /home/sanjai/.local/bin/bench start
+2025-07-10 23:37:32,560 INFO /home/sanjai/.local/bin/bench schedule
+2025-07-10 23:37:32,634 INFO /home/sanjai/.local/bin/bench serve --port 8000
+2025-07-10 23:37:32,644 INFO /home/sanjai/.local/bin/bench worker
+2025-07-10 23:37:32,653 INFO /home/sanjai/.local/bin/bench watch
+2025-07-11 00:00:02,147 INFO /home/sanjai/.local/bin/bench --verbose --site all backup
+2025-07-11 00:05:47,645 INFO /home/sanjai/.local/bin/bench start
+2025-07-11 00:05:48,321 INFO /home/sanjai/.local/bin/bench schedule
+2025-07-11 00:05:48,382 INFO /home/sanjai/.local/bin/bench serve --port 8000
+2025-07-11 00:05:48,675 INFO /home/sanjai/.local/bin/bench watch
+2025-07-11 00:05:48,735 INFO /home/sanjai/.local/bin/bench worker

@@ -1,0 +1,3 @@
+2025-07-10 23:38:07,452 ERROR frappe New Exception collected in error log
+Site: mysite.local
+Form Dict: {'leads': '["CRM-LEAD-2025-00006"]', 'cmd': 'frappe_assessment.api.convert_leads'}
